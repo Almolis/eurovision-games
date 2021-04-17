@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    text-align: center;
+    background-image: url("./eurovision.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'RocknRoll One', sans-serif;
+   
+}
+
+h2 {
+    color: rgb(233, 233, 250);
+    text-shadow: 2px 2px 8px blue;
+}
+
+p {
+    border-radius: 2%;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 2px;
+    color: rgb(15, 15, 49);
+    
+}
+
+
+.song-association { 
+    background-color: rgba(175, 196, 214, 0.774);
+    margin-top: 300px;
+    width: 500px;
+    height: 300px;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    background-color:rgb(15, 15, 49);
+    color: white;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+}
